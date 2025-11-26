@@ -44,10 +44,10 @@ Steps:
 1.	Download the APK file of one of the above malware samples (e.g., DroidBench, InsecureBankv2, or Diva) to your virtual machine.
 1.	Install the malware APK on the emulator:
 	•	Enable developer options on the emulator.
-	•	Install the APK using the following command in the terminal: adb install /path/to/malware.apk
+	•	Install the APK using the following command in the terminal: ```adb install /path/to/malware.apk```
 1.	Run MVT and scan the emulator for known malware signatures:
 	•	Launch MVT on your Kali Linux.
-	•	Use the command mvt-android scan -i /path/to/emulator/data
+	•	Use the command ```mvt-android scan -i /path/to/emulator/data```
 1.	Analyze the scan results and identify any suspicious activities or files.
 1.	Document the findings and recommend next steps for mitigation.
 
